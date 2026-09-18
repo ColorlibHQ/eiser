@@ -13,10 +13,10 @@
  * General Section Fields
  ***********************************/
 // Header top background color
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_theme_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Theme Color', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'eiser_general_section',
@@ -28,17 +28,17 @@ Epsilon_Customizer::add_field(
  * Header Section Fields =====================================
  ***********************************/
 //Header Top
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'header_top_sec',
     array(
-        'type'        => 'epsilon-separator',
+        'type'        => 'colorlib-separator',
         'label'       => esc_html__( 'Header Top', 'eiser' ),
         'section'     => 'eiser_header_section',
         
     )
 );
 // Header top phone number
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_top_phone',
     array(
         'type'        => 'text',
@@ -50,7 +50,7 @@ Epsilon_Customizer::add_field(
     )
 );
 // Header top email
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_top_email',
     array(
         'type'        => 'text',
@@ -62,10 +62,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // Header top background color
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_top_header_bg_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Header Top Background Color', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'eiser_header_section',
@@ -73,10 +73,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // Header top background color
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_top_header_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Header Top Text Color', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'eiser_header_section',
@@ -85,10 +85,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header navbar============================================
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'header_sec',
     array(
-        'type'        => 'epsilon-separator',
+        'type'        => 'colorlib-separator',
         'label'       => esc_html__( 'Header Navbar', 'eiser' ),
         'section'     => 'eiser_header_section',
         
@@ -96,10 +96,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header search form toggle field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_hsearchform_toggle',
     array(
-        'type'        => 'epsilon-toggle',
+        'type'        => 'colorlib-toggle',
         'label'       => esc_html__( 'Show header search form', 'eiser' ),
         'description' => esc_html__( 'Toggle to show header search form.', 'eiser' ),
         'section'     => 'eiser_header_section',
@@ -108,10 +108,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header background color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_header_bg_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Header Background Color', 'eiser' ),
         'description' => esc_html__( 'Select the header background color.', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
@@ -121,10 +121,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header nav menu color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_header_menu_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Header menu color', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'eiser_header_section',
@@ -133,10 +133,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header nav menu hover color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_header_menu_hover_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Header menu hover color', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'eiser_header_section',
@@ -144,10 +144,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // Header menu dropdown background color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_header_menu_dropbg_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Header menu dropdown background color', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'eiser_header_section',
@@ -156,10 +156,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header dropdown menu color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_header_drop_menu_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Dropdown menu color', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'eiser_header_section',
@@ -167,10 +167,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // Header dropdown menu hover color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_drop_menu_item_hover_bg',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Dropdown menu item hover background', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'eiser_header_section',
@@ -178,10 +178,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // Header dropdown menu hover color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_header_drop_menu_hover_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Dropdown menu hover color', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'eiser_header_section',
@@ -195,7 +195,7 @@ Epsilon_Customizer::add_field(
  ***********************************/
  
 // Post excerpt length field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_excerpt_length',
     array(
         'type'        => 'text',
@@ -207,17 +207,17 @@ Epsilon_Customizer::add_field(
     )
 );
 // Blog sidebar layout field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_blog_layout',
     array(
-        'type'     => 'epsilon-layouts',
+        'type'     => 'colorlib-layouts',
         'label'    => esc_html__( 'Blog Layout', 'eiser' ),
         'section'  => 'eiser_blog_section',
         'description' => esc_html__( 'Select the option to set blog page layout.', 'eiser' ),
         'layouts'  => array(
-            '1' => get_template_directory_uri() . '/inc/libraries/epsilon-framework/assets/img/one-column.png',
-            '2' => get_template_directory_uri() . '/inc/libraries/epsilon-framework/assets/img/epsilon-section-titleright.jpg',
-            '3' => get_template_directory_uri() . '/inc/libraries/epsilon-framework/assets/img/epsilon-section-titleleft.jpg',
+            '1' => get_template_directory_uri() . '/inc/customizer/colorlib-customizer/assets/img/layout-one-column.svg',
+            '2' => get_template_directory_uri() . '/inc/customizer/colorlib-customizer/assets/img/layout-sidebar-right.svg',
+            '3' => get_template_directory_uri() . '/inc/customizer/colorlib-customizer/assets/img/layout-sidebar-left.svg',
         ),
         'default'  => array(
             'columnsCount' => 1,
@@ -238,20 +238,20 @@ Epsilon_Customizer::add_field(
     )
 );
 // Blog single page like button
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_like_btn',
     array(
-        'type'        => 'epsilon-toggle',
+        'type'        => 'colorlib-toggle',
         'label'       => esc_html__( 'Blog single page link button', 'eiser' ),
         'section'     => 'eiser_blog_section',
         'default'     => false
     )
 );
 // Blog single page social share icon
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_blog_share',
     array(
-        'type'        => 'epsilon-toggle',
+        'type'        => 'colorlib-toggle',
         'label'       => esc_html__( 'Blog post social share icon', 'eiser' ),
         'section'     => 'eiser_blog_section',
         'default'     => false
@@ -265,7 +265,7 @@ Epsilon_Customizer::add_field(
  ***********************************/
 
 // About page top title field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_about_top_title',
     array(
         'type'              => 'text',
@@ -276,10 +276,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // About info block content field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_about_infoblock',
     array(
-        'type'         => 'epsilon-repeater',
+        'type'         => 'colorlib-repeater',
         'section'      => 'eiser_about_section',
         'label'        => esc_html__( 'About info block content', 'eiser' ),
         'button_label' => esc_html__( 'Add new block', 'eiser' ),
@@ -295,7 +295,7 @@ Epsilon_Customizer::add_field(
             ),
             'info_desc'        => array(
                 'label'             => esc_html__( 'Descriptions', 'eiser' ),
-                'type'              => 'epsilon-text-editor',
+                'type'              => 'colorlib-text-editor',
                 'default'           => 'Write something....',
             ),
         ),
@@ -307,7 +307,7 @@ Epsilon_Customizer::add_field(
  ***********************************/
 
 // Contact page top title field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_contact_top_title',
     array(
         'type'              => 'text',
@@ -337,7 +337,7 @@ $wp_customize->add_control(
 );
 
 // Map latitude  field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_contact_latitude',
     array(
         'type'              => 'text',
@@ -348,7 +348,7 @@ Epsilon_Customizer::add_field(
     )
 );
 // Map longitude  field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_contact_longitude',
     array(
         'type'              => 'text',
@@ -360,10 +360,10 @@ Epsilon_Customizer::add_field(
 );
 
 //  Contact info block field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_contact_infoblock',
     array(
-        'type'         => 'epsilon-repeater',
+        'type'         => 'colorlib-repeater',
         'section'      => 'eiser_contact_section',
         'label'        => esc_html__( 'Contact info block content', 'eiser' ),
         'button_label' => esc_html__( 'Add new block', 'eiser' ),
@@ -379,14 +379,14 @@ Epsilon_Customizer::add_field(
             ),
             'contact_info'        => array(
                 'label'             => esc_html__( 'Information', 'eiser' ),
-                'type'              => 'epsilon-text-editor',
+                'type'              => 'colorlib-text-editor',
                 'default'           => 'Write something....',
             ),
         ),
     )
 );
 // contact form title field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_contact_formtitle',
     array(
         'type'              => 'text',
@@ -400,7 +400,7 @@ Epsilon_Customizer::add_field(
 
 $options = eiser_contact_form7_shortcode(); // This function create in support-functions.php
 
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_contact_formshortcode',
     array(
         'type'              => 'select',
@@ -412,10 +412,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // Custom contact form shortcode field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_contact_custom_formshortcode',
     array(
-        'type'        => 'epsilon-text-editor',
+        'type'        => 'colorlib-text-editor',
         'label'       => esc_html__( 'Set custom contact form shortcode', 'eiser' ),
         'section'     => 'eiser_contact_section',
         'default'     => '',
@@ -427,7 +427,7 @@ Epsilon_Customizer::add_field(
  ***********************************/
 
 // 404 text #1 field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_fof_titleone',
     array(
         'type'              => 'text',
@@ -438,7 +438,7 @@ Epsilon_Customizer::add_field(
     )
 );
 // 404 text #2 field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_fof_titletwo',
     array(
         'type'              => 'text',
@@ -449,10 +449,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // 404 text #1 color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_fof_textone_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( '404 Text #1 Color', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'eiser_fof_section',
@@ -460,10 +460,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // 404 text #2 color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_fof_texttwo_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( '404 Text #2 Color', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'eiser_fof_section',
@@ -471,10 +471,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // 404 background color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_fof_bg_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( '404 Page Background Color', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'eiser_fof_section',
@@ -487,10 +487,10 @@ Epsilon_Customizer::add_field(
  ***********************************/
 
 // Footer widget toggle field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_footer_widget_toggle',
     array(
-        'type'        => 'epsilon-toggle',
+        'type'        => 'colorlib-toggle',
         'label'       => esc_html__( 'Footer widget show/hide', 'eiser' ),
         'description' => esc_html__( 'Toggle to display footer widgets.', 'eiser' ),
         'section'     => 'eiser_footer_section',
@@ -500,10 +500,10 @@ Epsilon_Customizer::add_field(
 // Footer copyright text field
 $url = 'https://colorlib.com/';
 $copyText = sprintf( __( 'Theme by %s colorlib %s Copyright &copy; %s  |  All rights reserved.', 'eiser' ), '<a target="_blank" href="' . esc_url( $url ) . '">', '</a>', date( 'Y' ) );
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_footer_copyright_text',
     array(
-        'type'        => 'epsilon-text-editor',
+        'type'        => 'colorlib-text-editor',
         'label'       => esc_html__( 'Footer copyright text', 'eiser' ),
         'section'     => 'eiser_footer_section',
         'default'     => wp_kses_post( $copyText ),
@@ -511,10 +511,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Footer widget background color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_footer_widget_bdcolor',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Footer Background Color', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'eiser_footer_section',
@@ -522,10 +522,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // Footer widget text color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_footer_widget_textcolor',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Footer Text Color', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'eiser_footer_section',
@@ -533,10 +533,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // Footer widget title color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_footer_widget_titlecolor',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Footer Widget Title Color', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'eiser_footer_section',
@@ -544,10 +544,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // Footer widget anchor color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_footer_widget_anchorcolor',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Footer Anchor Color', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'eiser_footer_section',
@@ -555,10 +555,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // Footer widget anchor hover color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'eiser_footer_widget_anchorhovcolor',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Footer Anchor Hover Color', 'eiser' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'eiser_footer_section',
@@ -567,18 +567,18 @@ Epsilon_Customizer::add_field(
 );
 
 // Footer Social profile
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'footer_social',
     array(
-        'type'        => 'epsilon-separator',
+        'type'        => 'colorlib-separator',
         'section'     => 'eiser_footer_section',
         
     )
 );
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
 	'eiser_footer_social',
 	array(
-		'type'         => 'epsilon-repeater',
+		'type'         => 'colorlib-repeater',
 		'section'      => 'eiser_footer_section',
 		'label'        => esc_html__( 'Social Profile', 'eiser' ),
 		'button_label' => esc_html__( 'Add new social link', 'eiser' ),
@@ -601,7 +601,7 @@ Epsilon_Customizer::add_field(
 			),
 			'social_icon'        => array(
 				'label'   => esc_html__( 'Icon', 'eiser' ),
-				'type'    => 'epsilon-icon-picker',
+				'type'    => 'colorlib-icon-picker',
 				'default' => 'fa fa-twitter',
 			),
 			
@@ -615,20 +615,20 @@ Epsilon_Customizer::add_field(
  */
 
 // Shop page settings separator
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
 	'eiser-woo-shop-separator',
 	array(
-		'type'    => 'epsilon-separator',
+		'type'    => 'colorlib-separator',
 		'label'   => esc_html__( 'Shop page settings', 'eiser' ),
 		'section' => 'eiser_woocommerce_options_section',
 	)
 );
 
 // WooCommerce shop title show/hide option field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
 	'eiser-woo-shoppage-title-settings',
 	array(
-		'type'        => 'epsilon-toggle',
+		'type'        => 'colorlib-toggle',
 		'label'       => esc_html__( 'Shop Title Show/Hide', 'eiser' ),
 		'description' => esc_html__( 'Toggle the shop page title show or hide.', 'eiser' ),
 		'section'     => 'eiser_woocommerce_options_section',
@@ -637,10 +637,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Product per page number field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
 	'eiser_woo_product_perpage',
 	array(
-		'type'              => 'epsilon-slider',
+		'type'              => 'colorlib-slider',
 		'label'             => esc_html__( 'Shop product per page', 'eiser' ),
 		'description'       => esc_html__( 'Set shop product per page ( Default 10 ).', 'eiser' ),
 		'section'           => 'eiser_woocommerce_options_section',
@@ -654,20 +654,20 @@ Epsilon_Customizer::add_field(
 	)
 );
 // Details page settings separator
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
 	'eiser-woo-details-separator',
 	array(
-		'type'        => 'epsilon-separator',
+		'type'        => 'colorlib-separator',
 		'label'       => esc_html__( 'Product details page settings', 'eiser' ),
 		'description' => esc_html__( 'To see setting taking effect click on product to go product details.', 'eiser' ),
 		'section'     => 'eiser_woocommerce_options_section',
 	)
 );
 // Related Product Show hide
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
 	'eiser-woo-related-product-settings',
 	array(
-		'type'        => 'epsilon-toggle',
+		'type'        => 'colorlib-toggle',
 		'label'       => esc_html__( 'Related Product Show/Hide', 'eiser' ),
 		'description' => esc_html__( 'Toggle the related product show or hide in product details page.', 'eiser' ),
 		'section'     => 'eiser_woocommerce_options_section',
@@ -675,10 +675,10 @@ Epsilon_Customizer::add_field(
 	)
 );
 // Related Product number field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
 	'eiser_related_product_number',
 	array(
-		'type'              => 'epsilon-slider',
+		'type'              => 'colorlib-slider',
 		'label'             => esc_html__( 'Related product per section', 'eiser' ),
 		'description'       => esc_html__( 'Set single page related product per section ( Default 4 ).', 'eiser' ),
 		'section'           => 'eiser_woocommerce_options_section',
