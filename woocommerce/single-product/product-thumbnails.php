@@ -33,7 +33,7 @@ if ( $attachment_ids && $product->get_image_id() ) {
 		$img = wp_get_attachment_image_src( $attachment_id ); 
 
 		$active = $a === 0 ? 'active' : '';
-		echo '<li data-target="#carouselExampleIndicators" data-slide-to="'.$a++.'" class="'.esc_html( $active ).'">';
+		echo '<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="'.$a++.'" class="'.esc_html( $active ).'">';
 		echo '<img src="'. esc_url( $img[0] ) .'" >';
 		echo '</li>';
 	}

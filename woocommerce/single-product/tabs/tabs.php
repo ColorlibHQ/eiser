@@ -42,7 +42,7 @@ if ( ! empty( $tabs ) ) : ?>
 				<a
 				class="nav-link <?php echo esc_attr( $key ) . esc_attr( $active ) ?>"
 				id="<?php echo esc_attr( $key ); ?>"
-				data-toggle="tab"
+				data-bs-toggle="tab"
 				href="#tab_<?php echo esc_attr( $key ); ?>"
 				role="tab"
 				aria-controls="<?php echo esc_attr( $key ); ?>"

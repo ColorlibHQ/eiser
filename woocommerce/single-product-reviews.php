@@ -66,47 +66,47 @@ if ( ! comments_open() ) {
 						<ul class="list">
 							<li>
 								5 Star
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
 								<?php echo esc_html( $rating_5 ); ?>
 							</li>
 							<li>
 								4 Star
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star-o"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
 								<?php echo esc_html( $rating_4 ); ?>
 							</li>
 							<li>
 								3 Star
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star-o"></i>
-								<i class="fa fa-star-o"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+								<i class="fa-regular fa-star"></i>
 								<?php echo esc_html( $rating_3 ); ?>
 							</li>
 							<li>
 								2 Star
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star-o"></i>
-								<i class="fa fa-star-o"></i>
-								<i class="fa fa-star-o"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+								<i class="fa-regular fa-star"></i>
 								<?php echo esc_html( $rating_2 ); ?>
 							</li>
 							<li>
 								1 Star
-								<i class="fa fa-star"></i>
-								<i class="fa fa-star-o"></i>
-								<i class="fa fa-star-o"></i>
-								<i class="fa fa-star-o"></i>
-								<i class="fa fa-star-o"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+								<i class="fa-regular fa-star"></i>
 								<?php echo esc_html( $rating_1 ); ?>
 							</li>
 						</ul>

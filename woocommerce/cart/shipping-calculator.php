@@ -21,12 +21,12 @@ do_action( 'woocommerce_before_shipping_calculator' ); ?>
 
 <form class="shipping_box woocommerce-shipping-calculator" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
 	
-	<?php printf( '<a href="#" class="shipping-calculator-button"><h6>%s <i class="fa fa-caret-down" aria-hidden="true"></i></h6></a>', esc_html( ! empty( $button_text ) ? $button_text : __( 'Calculate shipping', 'eiser' ) ) ); ?>
+	<?php printf( '<a href="#" class="shipping-calculator-button"><h6>%s <i class="fa-solid fa-caret-down" aria-hidden="true"></i></h6></a>', esc_html( ! empty( $button_text ) ? $button_text : __( 'Calculate shipping', 'eiser' ) ) ); ?>
 
 	<section class="shipping-calculator-form" style="display:none;">
 
 		<?php if ( apply_filters( 'woocommerce_shipping_calculator_enable_country', true ) ) : ?>
-			<p class="form-row form-row-wide" id="calc_shipping_country_field">
+			<p class="row form-row-wide" id="calc_shipping_country_field">
 				<select name="calc_shipping_country" id="calc_shipping_country" class="shipping_select" rel="calc_shipping_state">
 					<option value=""><?php esc_html_e( 'Select a country&hellip;', 'eiser' ); ?></option>
 					<?php
@@ -39,7 +39,7 @@ do_action( 'woocommerce_before_shipping_calculator' ); ?>
 		<?php endif; ?>
 
 		<?php if ( apply_filters( 'woocommerce_shipping_calculator_enable_state', true ) ) : ?>
-			<p class="form-row form-row-wide" id="calc_shipping_state_field">
+			<p class="row form-row-wide" id="calc_shipping_state_field">
 				<?php
 				$current_cc = WC()->customer->get_shipping_country();
 				$current_r  = WC()->customer->get_shipping_state();
@@ -70,18 +70,18 @@ do_action( 'woocommerce_before_shipping_calculator' ); ?>
 		<?php endif; ?>
 
 		<?php if ( apply_filters( 'woocommerce_shipping_calculator_enable_city', true ) ) : ?>
-			<p class="form-row form-row-wide">
+			<p class="row form-row-wide">
 			<input type="text" class="input-text" value="<?php echo esc_attr( WC()->customer->get_shipping_city() ); ?>" placeholder="<?php esc_attr_e( 'City', 'eiser' ); ?>" name="calc_shipping_city" id="calc_shipping_city" />
 			</p>
 		<?php endif; ?>
 
 		<?php if ( apply_filters( 'woocommerce_shipping_calculator_enable_postcode', true ) ) : ?>
-			<p class="form-row form-row-wide">
+			<p class="row form-row-wide">
 				<input type="text" class="input-text" value="<?php echo esc_attr( WC()->customer->get_shipping_postcode() ); ?>" placeholder="<?php esc_attr_e( 'Postcode / ZIP', 'eiser' ); ?>" name="calc_shipping_postcode" id="calc_shipping_postcode" />
 			</p>
 		<?php endif; ?>
 
-		<p class="form-row form-row-wide justify-content-end"><button type="submit" name="calc_shipping" value="1" class="gray_btn"><?php esc_html_e( 'Update', 'eiser' ); ?></button></p>
+		<p class="row form-row-wide justify-content-end"><button type="submit" name="calc_shipping" value="1" class="gray_btn"><?php esc_html_e( 'Update', 'eiser' ); ?></button></p>
 		<?php wp_nonce_field( 'woocommerce-shipping-calculator', 'woocommerce-shipping-calculator-nonce' ); ?>
 	</section>
 </form>

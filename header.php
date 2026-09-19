@@ -40,7 +40,7 @@
                     </div>
                     
                     <div class="col-lg-5">
-                        <div class="float-right">
+                        <div class="float-end">
                             <?php
                             if(has_nav_menu('header_top_menu')) {
                                 wp_nav_menu( array(
@@ -66,15 +66,15 @@
                         echo eiser_theme_logo( 'navbar-brand logo_h' );
                         ?>
                     </div>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset w-100" id="navbarSupportedContent">
-                        <div class="row w-100 mr-0">
-                            <div class="col-lg-10 pr-0">
+                        <div class="row w-100 me-0">
+                            <div class="col-lg-10 pe-0">
 	                            <?php
 	                            if(has_nav_menu('primary-menu')) {
 		                            wp_nav_menu(array(
@@ -89,7 +89,7 @@
 	                            ?>
                             </div>
 
-                            <div class="col-lg-2 pr-0">
+                            <div class="col-lg-2 pe-0">
                                 <ul class="nav navbar-nav navbar-right right_nav pull-right">
                                     <?php
                                     $searchIcon = eiser_opt( 'eiser_hsearchform_toggle' );
@@ -104,7 +104,7 @@
                                      
                                     if(class_exists('WooCommerce')) { ?>
                                         <li class="nav-item dropdown show">
-                                            <a class="dropdown-toggle icons" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <a class="dropdown-toggle icons" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <i class="ti-shopping-cart"></i>    
                                                 <span class="cart">
                                                     <?php echo esc_html($woocommerce->cart->cart_contents_count); ?>
@@ -131,7 +131,7 @@
                                                                 }
                                                                 ?>
                                                             </div>
-                                                            <div class="cart-content text-left">
+                                                            <div class="cart-content text-start">
                                                                 <p class="cart-title">
                                                                     <?php
                                                                     if (!$product_permalink) {

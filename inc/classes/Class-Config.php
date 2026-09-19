@@ -124,35 +124,35 @@
 			$scripts = array(
 				'style' => array(
 					array(
-						'handler'		=> 'google-font',
+						'handler'		=> 'eiser-theme-google-font',
 						'file' 			=> $this->google_font(),
 					),
 					array(
-						'handler'		=> 'bootstrap',
+						'handler'		=> 'eiser-theme-bootstrap',
 						'file' 			=> $cssPath.'bootstrap.css',
 						'dependency' 	=> array(),
-						'version' 		=> '1.0',
+						'version' 		=> '5.3.8-4',
 					),
 					array(
-						'handler'		=> 'font-awesome',
+						'handler'		=> 'eiser-theme-font-awesome',
 						'file' 			=> $cssPath.'font-awesome.min.css',
 						'dependency' 	=> array(),
-						'version' 		=> '4.7.0',
+						'version' 		=> '7.3.1-1',
 					),
 					array(
-						'handler'		=> 'themify',
+						'handler'		=> 'eiser-theme-themify',
 						'file' 			=> $cssPath.'themify-icons.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'flaticon',
+						'handler'		=> 'eiser-theme-flaticon',
 						'file' 			=> $cssPath.'flaticon.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'owl-carousel',
+						'handler'		=> 'eiser-theme-owl-carousel',
 						'file' 			=> $cssPath.'owl.carousel.min.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
@@ -164,64 +164,57 @@
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'nice-select',
+						'handler'		=> 'eiser-theme-nice-select',
 						'file' 			=> $cssPath.'nice-select.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'animate',
+						'handler'		=> 'eiser-theme-animate',
 						'file' 			=> $cssPath.'animate.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'jquery-ui',
+						'handler'		=> 'eiser-theme-jquery-ui',
 						'file' 			=> $cssPath.'jquery-ui.css',
 						'dependency' 	=> array(),
 						'version' 		=> '1.0',
 					),
 					array(
-						'handler'		=> 'default-css',
+						'handler'		=> 'eiser-theme-default-css',
 						'file' 			=> $cssPath.'default.css',
 						'dependency' 	=> array(),
 						'version' 		=> $this->eiser_version,
 					),
 					array(
-						'handler'		=> 'main',
+						'handler'		=> 'eiser-theme-main',
 						'file' 			=> $cssPath.'main.css',
 						'dependency' 	=> array(),
 						'version' 		=> $this->eiser_version,
 					),
 					array(
-						'handler'		=> 'responsive',
+						'handler'		=> 'eiser-theme-responsive',
 						'file' 			=> $cssPath.'responsive.css',
 						'dependency' 	=> array(),
 						'version' 		=> $this->eiser_version,
 					),
 					array(
-						'handler'		=> 'eiser-style',
+						'handler'		=> 'eiser-theme-eiser-style',
 						'file' 			=> get_stylesheet_uri(),
 					),
 				),
 				
 				'scripts' => array(
 					array(
-						'handler'		=> 'popper',
-						'file' 			=> $jsPath.'popper.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '4.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'bootstrap',
+						'handler'		=> 'eiser-theme-bootstrap',
 						'file' 			=> $jsPath.'bootstrap.min.js',
 						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '4.1.3',
+						'version' 		=> '5.3.8-4',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'stellar',
+						'handler'		=> 'eiser-theme-stellar',
 						'file' 			=> $jsPath.'stellar.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
@@ -235,49 +228,42 @@
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'jquery.nice-select',
+						'handler'		=> 'eiser-theme-jquery.nice-select',
 						'file' 			=> $jsPath.'jquery.nice-select.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'imagesloaded.pkgd.min',
-						'file' 			=> $jsPath.'imagesloaded.pkgd.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'isotope',
+						'handler'		=> 'eiser-theme-isotope',
 						'file' 			=> $jsPath.'isotope-min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'owl-carousel',
+						'handler'		=> 'eiser-theme-owl-carousel',
 						'file' 			=> $jsPath.'owl.carousel.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'ajaxchimp',
+						'handler'		=> 'eiser-theme-ajaxchimp',
 						'file' 			=> $jsPath.'jquery.ajaxchimp.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'waypoints',
+						'handler'		=> 'eiser-theme-waypoints',
 						'file' 			=> $jsPath.'jquery.waypoints.min.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'counterup',
+						'handler'		=> 'eiser-theme-counterup',
 						'file' 			=> $jsPath.'jquery.counterup.js',
 						'dependency' 	=> array( 'jquery' ),
 						'version' 		=> '1.0',
@@ -285,9 +271,9 @@
 					),
 					
 					array(
-						'handler'		=> 'eiser-main',
+						'handler'		=> 'eiser-theme-eiser-main',
 						'file' 			=> $jsPath.'main.js',
-						'dependency' 	=> array( 'jquery' ),
+						'dependency' 	=> array( 'jquery', 'imagesloaded' ),
 						'version' 		=> $this->eiser_version,
 						'in_footer' 	=> true
 					),

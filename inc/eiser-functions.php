@@ -538,7 +538,7 @@ function eiser_latest_blog( $post_num ){
                         <div class="text-wrap">
                             <?php echo wpautop( wp_trim_words( get_the_content(), 18, '' ) ); ?>
                         </div>
-                        <a href="<?php the_permalink(); ?>" class="blog_btn">Learn More <span class="ml-2 ti-arrow-right"></span></a>
+                        <a href="<?php the_permalink(); ?>" class="blog_btn">Learn More <span class="ms-2 ti-arrow-right"></span></a>
                     </div>
                 </div>
             </div>
