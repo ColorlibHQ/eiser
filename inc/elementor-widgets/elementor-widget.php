@@ -295,15 +295,13 @@ if ( !class_exists( 'Eiser_El_Widgets' ) ) {
             // googleapis js
             wp_register_script( 'maps-googleapis', '//maps.googleapis.com/maps/api/js?key='.esc_attr( $apiKey ) );
 
-            // ajaxchimp js
-            wp_enqueue_script( 'jquery-ajaxchimp', EISER_DIR_ELEMENTOR . 'assets/js/jquery.ajaxchimp.min.js', array('jquery'), '1.0', true );
 
 
             // eiser map custom js
-            wp_register_script( 'eiser-map-custom', EISER_DIR_ELEMENTOR . 'assets/js/map-custom.js', array('jquery'), '1.0', true );
+            wp_register_script( 'eiser-map-custom', EISER_DIR_ELEMENTOR . 'assets/js/map-custom.js', array(), '1.0-s2', true );
 
             // eiser companion main js
-            wp_enqueue_script( 'eiser', EISER_DIR_ELEMENTOR . 'assets/js/eiser-companion-main.js', array( 'jquery', 'jquery-ui-datepicker' ), '1.0', true );
+            wp_enqueue_script( 'eiser', EISER_DIR_ELEMENTOR . 'assets/js/eiser-companion-main.js', array( 'eiser-ui-js' ), '1.0-s2', true );
 
 
             wp_localize_script( 'eiser', 'ajax_object',
