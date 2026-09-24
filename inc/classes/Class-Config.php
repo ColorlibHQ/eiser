@@ -149,7 +149,7 @@
 						'handler'		=> 'eiser-theme-flaticon',
 						'file' 			=> $cssPath.'flaticon.css',
 						'dependency' 	=> array(),
-						'version' 		=> '1.0',
+						'version' 		=> '1.0-s3',
 					),
 					array(
 						'handler'		=> 'eiser-theme-owl-carousel',
@@ -191,7 +191,7 @@
 						'handler'		=> 'eiser-theme-main',
 						'file' 			=> $cssPath.'main.css',
 						'dependency' 	=> array(),
-						'version' 		=> $this->eiser_version,
+						'version' 		=> $this->eiser_version . '-s3',
 					),
 					array(
 						'handler'		=> 'eiser-theme-responsive',
