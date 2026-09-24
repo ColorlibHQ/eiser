@@ -149,7 +149,9 @@
   // Search Bar
   UI.ready(function () {
     UI.toElements('.search_icon').forEach(function (icon) {
-      icon.addEventListener('click', function () {
+      // The icon is an <a href="#">; without this the page also jumps to the top.
+      icon.addEventListener('click', function (e) {
+        e.preventDefault();
         UI.toElements('.header_search').forEach(function (search) {
           search.classList.toggle('show_search');
         });

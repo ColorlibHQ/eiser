@@ -225,7 +225,7 @@
 						'handler'		=> 'eiser-theme-eiser-main',
 						'file' 			=> $jsPath.'main.js',
 						'dependency' 	=> array( 'imagesloaded', 'eiser-ui-js' ),
-						'version' 		=> $this->eiser_version . '-s2',
+						'version' 		=> $this->eiser_version . '-s3',
 						'in_footer' 	=> true
 					),
 

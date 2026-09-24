@@ -14,6 +14,7 @@ function eiser_sl_enqueue_scripts() {
 
 	wp_localize_script( 'eiser-post-likes', 'simpleLikes', array(
 		'ajaxurl' => admin_url( 'admin-ajax.php' ),
+		'like'    => esc_html__( 'Like', 'eiser' ),
 		'unlike'  => esc_html__( 'Unlike', 'eiser' )
 	) );
 }
