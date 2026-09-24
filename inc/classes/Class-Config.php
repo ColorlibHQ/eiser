@@ -228,13 +228,6 @@
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'eiser-theme-jquery.nice-select',
-						'file' 			=> $jsPath.'jquery.nice-select.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
 						'handler'		=> 'eiser-theme-isotope',
 						'file' 			=> $jsPath.'isotope-min.js',
 						'dependency' 	=> array( 'jquery' ),
@@ -255,26 +248,19 @@
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
-					array(
-						'handler'		=> 'eiser-theme-waypoints',
-						'file' 			=> $jsPath.'jquery.waypoints.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
-						'handler'		=> 'eiser-theme-counterup',
-						'file' 			=> $jsPath.'jquery.counterup.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
 					
+					array(
+						'handler'		=> 'eiser-ui-js',
+						'file' 			=> $jsPath.'colorlib-ui.js',
+						'dependency' 	=> array(),
+						'version' 		=> '2.1.1',
+						'in_footer' 	=> true
+					),
 					array(
 						'handler'		=> 'eiser-theme-eiser-main',
 						'file' 			=> $jsPath.'main.js',
-						'dependency' 	=> array( 'jquery', 'imagesloaded' ),
-						'version' 		=> $this->eiser_version,
+						'dependency' 	=> array( 'jquery', 'imagesloaded', 'eiser-ui-js' ),
+						'version' 		=> $this->eiser_version . '-s1',
 						'in_footer' 	=> true
 					),
 

@@ -82,11 +82,8 @@
     }
     mailChimp();
 
-    $('select').niceSelect();
+    ColorlibUI.enhanceSelects('select:not(#rating):not(#billing_country):not(#billing_state)');
 
-    $('#rating').niceSelect('destroy');
-    $('#billing_country').niceSelect('destroy');
-    $('#billing_state').niceSelect('destroy');
 
 
     /*----------------------------------------------------*/
@@ -94,10 +91,7 @@
     /*----------------------------------------------------*/
     $('.imageGallery1 .light').simpleLightbox();
 
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
+    ColorlibUI.counter('.counter', { time: 1000 });
 
 
     /*----------------------------------------------------*/
